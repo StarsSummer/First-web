@@ -1,0 +1,170 @@
+body,a{
+   padding-top: 70px;
+   font-family: "微软雅黑";
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{
+    transition-duration: 0.3s;
+    font-size: 120%;
+    border-top: 0.2em solid #ddd;
+}
+#page{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+}
+.navbar-header{
+	margin-left: 9%;
+}
+.container-fluid{
+	background-color:rgba(255,255,255,0.1);
+}
+#bs-example-navbar-collapsemargin-left: 10%;-1{
+	
+}
+.carousel{
+	height:40%;
+	width: 100%;
+	background-color:#FFF;
+}
+.carousel .item{
+	height:40%;
+	background-color:#FFF;
+}
+.carousel img{
+	width:100%;
+}
+.nheader{
+	margin-bottom: 2%;
+}
+#letters{
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 120%;
+}
+#button-spread,#button-fold{
+	border: none;
+	background: #fff;
+	color: #36f;
+	float: right;
+}
+#roles{
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.nav-tabs > li > a{
+	color: #000;
+}
+
+.roleimg{
+	width:100%;
+	opacity: 1;
+	transform: scale(0.9);
+	border-radius: 10%;
+}
+.roleimg:hover{
+    opacity: 0.8;
+	border-radius: 0%;
+	transform: scale(1.0);
+	transition-duration: 1s;
+}
+.rolebrief{
+	line-height: 200%;
+	font-size:150%;
+}
+.rolebrief p{
+	margin-top: 20px;
+	font-size:160%;
+	text-align: center;
+}
+.rolebrief span{
+	font-size: 80%;
+	font-style: italic;
+}
+.para{
+	width:100%;
+	font-size: 120%;
+}
+.storyimg{
+	width: 80%;
+}
+#pray{
+	margin-top: 50px;
+	margin-bottom: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 200%;
+}
+.musicbox{
+	padding: 0;
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-bottom:1px solid #eee;
+}
+.musicbox button{
+	font-size: 200%;
+	background: none;
+	border: none;
+	border-radius: 20%;
+}
+.musicbox p{
+	display: inline-block;
+	font-size: 150%;
+}
+.musicbox button:hover{
+	background-color:rgba(136,201,242,0.2);
+}
+#memories{
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: -2%;
+}
+.setimg{
+	position: relative;
+}
+.setimg img{
+	width:90%;
+	display: inline-block;
+	border: 0.1em solid #DDD;
+	padding: 8px;
+}
+.setimg p{
+	width:90%;
+	text-align: center;
+	font-size: 2em;
+	color: rgba(255,255,255,0);
+	position: absolute;
+	z-indent:2;left:0;top:0;
+}
+.setimg:hover>img{
+	opacity: 0.6;
+	border:1px solid #DDD;
+	border-radius: 80%;
+	transition-duration: 1s;
+}
+.setimg:hover>p{
+	margin-top: 3em;
+	color: rgba(255,255,255,1);
+	transition-duration: 1s;
+}
+@media screen and (max-width: 69.5em) {
+	#page{
+		font-size: 90%;
+	}
+	.nheader {
+		font-size:180%;
+	}
+}
+@media screen and (max-width: 41.5em) {
+    #page{
+    	font-size: 60%;
+    }
+}
